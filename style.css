@@ -1,0 +1,163 @@
+/*INDEX.HTML*/
+/* ALL */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Gill Sans MT;
+    font-weight:bolder;
+
+}
+
+/* INDEX.HTML BODY */
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*LINK HOVER EFFECT*/
+a:hover {
+    color: darkorange;
+    border-radius: 5px;
+}
+
+#name:hover {
+    color: darkorange;
+}
+
+.logsignbuttons p:hover {
+    background-color: darkorange;
+    color: black;
+    
+}
+
+.searchsection p:hover {
+    background-color: darkorange;
+    color: black;
+    border-color: black;
+}
+
+
+/* HEADER */
+.header {
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    color: white;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 100%; 
+}
+
+/*HOME TITLE*/
+.skidalley {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* LOGO */
+#logo {
+    width: 80px;
+}
+
+#name {
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    gap: 20px;
+    margin-left: 170px;
+}
+
+/* LOGIN AND SIGNUP*/
+.logsign {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+    margin-right: 10px;
+}
+.logsign p {
+    margin-right: 10px;
+}
+
+/*CONTENT*/
+.searchsection {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 125px;
+    padding-left: 10px;
+    color: black;   
+    gap: 10px;
+}
+.searchsection p {
+    background-color: black;
+    border: solid white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#searchbar {
+    margin: 0;
+}
+
+.featuredsection {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.bikelist {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+}
+
+.bikes {
+    text-align: center;
+}
+
+
+/* FOOTER */
+.footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/*SIGNUP.HTML*/
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+input {
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.logsignbuttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.logsignbuttons p {
+    background-color: black;
+    color: white;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
