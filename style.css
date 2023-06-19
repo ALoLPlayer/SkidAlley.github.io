@@ -42,6 +42,13 @@ a:hover {
     border-color: black;
 }
 
+.signuppage p:hover {
+    background-color: darkorange;
+    color: black;
+    border-color: black;
+}
+
+
 
 /* HEADER */
 .header {
@@ -164,4 +171,18 @@ input {
 }
 
 
+/* SIGNUP.HTML */
+.signuppage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.signuppage p {
+    background-color: black;
+    color: white;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
