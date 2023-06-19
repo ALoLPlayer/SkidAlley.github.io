@@ -1,14 +1,13 @@
 /*INDEX.HTML*/
 @font-face {
-    font-family: Gill Sans MT;
-    src: url('fonts/Gill Sans MT/GIL_____.TTF');
+    font-family: 'Gill Sans MT' ;
+    src: url('fonts/Gill\ Sans\ MT/');
 }
-
 /* ALL */
 * {
     padding: 0px;
     margin: 0px;
-    font-family: Gill Sans MT;
+    font-family: 'Gill Sans MT';
     font-weight:bolder;
 
 }
